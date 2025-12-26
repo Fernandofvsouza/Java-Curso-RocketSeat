@@ -1,5 +1,5 @@
 //Variaveis e constantes no java
-public class App {
+public class Variaveis {
         //Estrutura de metodos
         //Um metodo nao pode ser declarado dentro de outro metodo
         //tipoDoRetorno nomeObjetivoInfinitivo parametro(s)
@@ -14,10 +14,9 @@ public class App {
         String formatarCep (long cep){
             return "Cep formatado";
         }
-    public static void main(String[] args) throws Exception {
+    
         //Estrutura Variaveis
         String nome = "Fernando";
-        nome = "João";
         int idade = 25;
         double altura = 1.80;
         String profissaoAtual = "desenvolvedor";
@@ -29,5 +28,5 @@ public class App {
         
 
     
-    }
 }
+

@@ -1,5 +1,5 @@
-public class App {
-    public static void main(String[] args) throws Exception {
+public class Tipos {
+    
         //Tipos primitivos sempre terão um valor padrão quando nao sao declarados
         //Ex:
         byte b; //b=0
@@ -12,6 +12,7 @@ public class App {
 
         char c; //c='\u0000'
         boolean o; //b=false
+        
 
-    }
 }
+
