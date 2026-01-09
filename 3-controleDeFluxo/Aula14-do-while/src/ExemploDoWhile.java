@@ -10,6 +10,13 @@ A diferença entre o while e o do while é que o while verifica a condição ant
 import java.util.Random;
 public class ExemploDoWhile{
     public static void main(String[] args) throws Exception {
-      
+      System.out.println("Discando o numero do seu amigo...");
     }
+
+
+
+
+
+
+    
 }
