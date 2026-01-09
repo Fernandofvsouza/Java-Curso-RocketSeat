@@ -11,12 +11,22 @@ import java.util.Random;
 public class ExemploDoWhile{
     public static void main(String[] args) throws Exception {
       System.out.println("Discando o numero do seu amigo...");
+      do { 
+          //Executando repetidamente enquanto o amigo nao atender
+          System.out.println("trim trim trim...");
+      } while (tocando());
+        System.err.println("Alô, amigo! Consegui falar com você!");
     }
 
 
 
 
 
+    private static boolean tocando(){
+        boolean atendeu = new Random().nextInt(3)==1;//gera um numero aleatorio entre 0 e 2, se for 1 o amigo atende
+        System.out.println("atendeu? " + atendeu);
+        return !atendeu;//retorna true se o amigo nao atendeu
 
+    }
     
 }
