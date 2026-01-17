@@ -8,7 +8,8 @@ dentro dos pacotes podemos ter subpacotes, geralmente damos o nome do subpacote 
 *services: contém classes que fornecem funcionalidades específicas, como acesso a banco de dados, autenticação, etc.
 *utils: armazena classes utilitárias e funções auxiliares que podem ser usadas em várias partes da aplicação.
 
-Importações:
+Importações são usadas para incluir classes de outros pacotes em seu código, permitindo que você utilize funcionalidades já existentes sem precisar reescrever o código. Por exemplo, se você quiser usar a classe ArrayList do pacote java.util, você pode importar essa classe no início do seu arquivo Java com a seguinte linha:
+import java.util.ArrayList;
  */
 
 
@@ -18,7 +19,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         String nome = "Gleyson";
         //Pacotes presentes no java.lang como o integer nao é necessario import
-        Integer altura = 2
+        Integer altura = 2;
         //Pacotes como o BigDecimal ja é necessario fazer o import
         BigDecimal idade = null;
 
