@@ -22,6 +22,7 @@ package app;
 import video.Filme;
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Filme filme = new Filme();
+        filme.setTitulo("Inception");
     }
 }
