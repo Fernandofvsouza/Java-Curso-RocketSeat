@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="518799e1-f16f-4943-beef-aca7b18d00c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Java-Curso-RocketSeat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-Curso-RocketSeat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-Poo/Aula19-Pacotes-Importações/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-Poo/Aula19-Pacotes-Importações/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Sintaxe/Aula1.E-Packages-e-import/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-Sintaxe/Aula1.E-Packages-e-import/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Sintaxe/Aula1.E-Packages-e-import/src/videos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-Sintaxe/Aula1.E-Packages-e-import/src/videos/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +36,12 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -51,6 +52,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -62,10 +64,17 @@
       <option name="presentableId" value="Default" />
       <updated>1766423973949</updated>
       <workItem from="1768667471730" duration="743000" />
+      <workItem from="1768764293981" duration="380000" />
+      <workItem from="1768764677936" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="up" />
   </component>
 </project>

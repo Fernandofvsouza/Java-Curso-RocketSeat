@@ -18,9 +18,11 @@ pacotes representando a interface do usuário ou gui (graphical user interface):
 ------------------
 App.java
 */
-
+import videos.Serie;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Software de Streaming Iniciado");
+        Serie serie = new Serie();
+        System.out.println(serie.nome);
     }
 }
