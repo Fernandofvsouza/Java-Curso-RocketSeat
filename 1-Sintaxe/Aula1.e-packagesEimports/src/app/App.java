@@ -18,8 +18,8 @@ pacotes representando a interface do usuário ou gui (graphical user interface):
 ------------------
 App.java
 */
-
-
+package app;
+import video.Filme;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
