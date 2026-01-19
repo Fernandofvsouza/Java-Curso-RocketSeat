@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/1-Sintaxe/Aula1.e-Arrays" vcs="Git" />
   </component>
 </project>
