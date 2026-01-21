@@ -21,11 +21,68 @@ Pacotes:
     - Scanner: Para leitura de entrada do usuário.
 Essas classes e pacotes formam a base para a maioria dos programas Java, permitindo que os desenvolvedores realizem tarefas comuns de forma eficiente e eficaz.
  */
-
+import java.time.LocalDate;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        //Exemplo de uso de algumas classes essenciais em Java
+        // Usando a classe String do pacote java.lang
+        String mensagem = "Olá, Mundo!";
+        System.out.println(mensagem);
+        System.err.println("Esta é uma mensagem de erro.");
+        //----------------------------------
+
+        //Usando o pacote java.util e (java.lang) para o scanner
+        String nome;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Digite seu nome: ");
+        nome = input.nextLine();
+        System.out.println("Olá, " + nome + "!");
+        input.close();
+        String nomeUser = null;
+        Integer idadeUser = null;
+        Double alturaUser = null;
+        //Simulando a leitura de uma linha de um arquivo CSV
+        String stringLinhaArquivo = "João,25,1.75";
+        Scanner scan = new Scanner(stringLinhaArquivo);
+        scan.useDelimiter(",");// Define a vírgula como delimitador
+        //Lendo os dados
+        int index = 0;
+        while(scan.hasNext()){
+            if(index == 0){
+                nomeUser = scan.next();
+            } else if(index == 1){
+                idadeUser = Integer.valueOf(scan.next());
+            } else if(index == 2){
+                alturaUser = Double.valueOf(scan.next());
+            }
+            index++;
+        }
+        System.out.println("Nome: " + nomeUser);
+        System.out.println("Idade: " + idadeUser);
+        System.out.println("Altura: " + alturaUser);
+        scan.close();
+        //-------------------------------------
+        //exemplo java.io
+        /*File arquivo = new File("exemplo.txt");
+        if(arquivo.createNewFile()){
+            System.out.println("Arquivo criado: " + arquivo.getName());
+        } else {
+            System.out.println("O arquivo já existe.");
+        }*/
+
+       //-------------------------------------
+       //exemplo java.time
+       LocalDate dataAtual = LocalDate.now();
+       System.out.println("Data atual: " + dataAtual.toString());
         
+
+        
+
+
+
+
         
     }
 }
