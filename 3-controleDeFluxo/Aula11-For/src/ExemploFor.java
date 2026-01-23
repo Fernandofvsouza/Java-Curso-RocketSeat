@@ -33,7 +33,6 @@ public class ExemploFor {
             for(String aluno : alunos){
                 System.out.println("Aluno: " + aluno);
             }
-            //Break e continue em laços for, podemos usar o break para sair de um laço for antes que ele termine todas as iterações, e o continue para pular uma iteração específica e continuar com a próxima.
-            //Exemplo de break
+            
     }
 }
