@@ -8,9 +8,6 @@
       <change afterPath="$PROJECT_DIR$/5-pilares-poo/Aula23-Encapsulamento/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5-pilares-poo/Aula23-Encapsulamento/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5-pilares-poo/Aula23-Encapsulamento/Aula23-Encapsulamento.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java-Curso-RocketSeat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-Curso-RocketSeat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
       <workItem from="1768837382675" duration="90000" />
       <workItem from="1769273098641" duration="16000" />
       <workItem from="1769529964142" duration="59000" />
-      <workItem from="1769530074452" duration="1004000" />
+      <workItem from="1769530074452" duration="1250000" />
     </task>
     <servers />
   </component>
