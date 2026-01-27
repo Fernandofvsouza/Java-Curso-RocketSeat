@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/1-Sintaxe/Aula1.e-Arrays/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4-Poo/Aula19-Pacotes-Importações/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5-pilares-poo/Aula23-Encapsulamento/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
