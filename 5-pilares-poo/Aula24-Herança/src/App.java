@@ -14,10 +14,11 @@ Conceito básico
 public class App {
     public static void main(String[] args) throws Exception {
         //Objeto 1
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.getNome("Naruto Uzumaki");
-        Naruto.getIdade(17);
+        Naruto.getIdade(17);    
         Naruto.getAldeia("Aldeia da folha");
+        Naruto.KyuubiModo();
 
         //Objeto 2
         Uchiha Sasuke = new Uchiha();
@@ -27,15 +28,18 @@ public class App {
         Sasuke.SharinganAtivado();
 
         //Objeto 3
-        Ninja Sakura = new Ninja();
+        Haruno Sakura = new Haruno();
         Sakura.getNome("Sakura Haruno");
         Sakura.getIdade(18);
         Sakura.getAldeia("Aldeia da folha");
+        Sakura.ForcaSobreHumana();
+
 
         //Objeto 4
-        Ninja Hinata = new Ninja();
+        Hyuga Hinata = new Hyuga();
         Hinata.getNome("Hinata Hyuga");
         Hinata.getIdade(16);
         Hinata.getAldeia("Aldeia da folha");
+        Hinata.ByakuganAtivado();
     }
 }
