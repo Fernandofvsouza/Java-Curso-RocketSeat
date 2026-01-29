@@ -5,5 +5,13 @@ public class ComputadorPedrinho {
         msn.enviarMensagem();
         msn.receberMensagem();
         //msn.salvarHistoricoConversas();
+
+        FacebookMessenger facebook = new FacebookMessenger(); //Pedrinho instalou o Facebook Messenger em seu computador
+        facebook.enviarMensagem();
+        facebook.receberMensagem();
+
+        Telegram telegram = new Telegram(); //Pedrinho instalou o Telegram em seu computador
+        telegram.enviarMensagem();
+        telegram.receberMensagem();
     }
 }
