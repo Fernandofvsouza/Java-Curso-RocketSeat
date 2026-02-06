@@ -1,5 +1,5 @@
 public class Ninja {
-   private String nome;
+    private String nome;
     private int idade;
     private String aldeia;
 
